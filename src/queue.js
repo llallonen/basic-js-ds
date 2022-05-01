@@ -13,7 +13,12 @@ const { ListNode } = require('../extensions/list-node.js');
  * queue.dequeue(); // returns the top element from queue and deletes it, returns 1
  * queue.getUnderlyingList() // returns { value: 3, next: null }
  */
+<<<<<<< HEAD:src/st-queue.js
 module.exports = class Queue {
+=======
+class Queue {
+
+>>>>>>> 10360c681cdb76d11cccc3e41887811b42a20dbe:src/queue.js
   getUnderlyingList() {
     return this
   }
@@ -45,3 +50,7 @@ module.exports = class Queue {
     return copy.value
   }
 }
+
+module.exports = {
+  Queue
+};
